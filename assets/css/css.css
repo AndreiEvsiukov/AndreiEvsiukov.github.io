@@ -1,0 +1,22 @@
+._main_container {
+  background-color: white;
+  height: 7000px;
+}
+
+.navbar_outline {
+  text-align: center;
+  height: 4em;
+  background-color: lightgray;
+}
+
+
+/* Determining responsiveness */
+@media (max-width: 576px) {
+  /* .section_sales_analysis {
+    
+  } */
+}
+
+@media (min-width: 567px) {
+  
+}
