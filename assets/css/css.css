@@ -3,20 +3,52 @@
   height: 7000px;
 }
 
-.navbar_outline {
-  text-align: center;
-  height: 4em;
-  background-color: lightgray;
+/* Navigation */
+
+nav._navbar {
+  padding-left: 0px;
+}
+
+._navbar {
+  background-color: #39424a;
+}
+
+.nav-item {
+  font-size: medium;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.nav-item a:hover {
+  /* background-color: ; */
 }
 
 
-/* Determining responsiveness */
+li._projects a {
+  background-color: white;
+  color: #1b2024;
+  padd-left: 0px !;
+}
+
+/* Small devices */
 @media (max-width: 576px) {
-  /* .section_sales_analysis {
-    
+  /* Setting layout */
+  /* ._main_container {
+    margin: 0px;
   } */
+
 }
 
-@media (min-width: 567px) {
-  
+/* Middle-size devices */
+@media (min-width: 768px) and (max-width: 1200px) {
+  ._container_wrapper {
+    margin: 0px 30px 0px 30px;
+  }
+}
+
+/* Large */
+@media (min-width: 960px) {
+
 }
