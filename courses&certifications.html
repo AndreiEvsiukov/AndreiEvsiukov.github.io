@@ -32,13 +32,13 @@
               <a class="nav-link" aria-current="page" href="/Index.html">Intro</a>
             </li>
             <li class="nav-item _nav_item_projects">
-              <a class="nav-link" aria-current="page" href="/projects.html">Projects</a>
+              <a class="nav-link" aria-current="page" href="/projects.html">My work</a>
             </li>
             <li class="nav-item _nav_item_courses">
               <a class="nav-link" href="/courses&certifications.html">Courses&certifications</a>
             </li>
             <li class="nav-item _nav_item_about">
-              <a class="nav-link" href="#">About me</a>
+              <a class="nav-link" href="/about_me.html">About me</a>
             </li>
           </ul>
           <!--END: Top navbar -->
@@ -70,8 +70,9 @@
               <nav class="nav nav-pills flex-column">
                 <a class="nav-link" href="#_analytics_viz_section">Analytics and <br>visualization</a>
                 <a class="nav-link" href="#_programming_section">Programming</a>
-                <a class="nav-link" href="#_advertising_section">Digital advertising</a>
-                <a class="nav-link" href="#_IELTS_section">IELTS</a>
+                <a class="nav-link" href="#_advertising_section">Digital marketing</a>
+                <a class="nav-link" href="#_IELTS_section">Languages</a>
+                <a id="_back_to_top" class="nav-link" href="#">Back to top</a>
               </nav>
               
             </nav>
@@ -116,37 +117,125 @@
 
 
               <div id="_sections_wrapper">
-                <!-- START: section 1 SALES -->
+                <!-- START: section 1 analytics and viz -->
                 <section id="_analytics_viz_section" class="_analytics_viz_section">
                   <h1 class="display-5 fst-italic fw-normal text-left text-uppercase m-4">analytics / visualisation</h1>
-                  <p class="mx-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, minima exercitationem alias, culpa dolore numquam ratione iure facere illum ullam qui expedita ut magnam voluptatem, aperiam natus dolorem veritatis accusantium! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure sapiente sequi exercitationem itaque? Illum dolore aliquam et quod consequuntur.</p>
-                  <img src="images/Section_1/section1_image.jpg" alt="Sales data analysis schema" class="img-fluid">
-                  <hr class="my-5 border-primary opacity-75">
-                </section> <!-- END: section 1 -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nesciunt obcaecati minus accusantium eaque inventore error culpa, tempore dolores? Aspernatur dignissimos facere ex dolore, explicabo earum non sequi exercitationem quam?</p>
+                  
+                  <!-- START: carousel -->
+                  <div id="_carousel_analytics_certificates" class="carousel slide" data-bs-ride="false" data-bs-interval="false" style="width: 70%; border: 1px solid black;">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/courses&certifications/analytics_and_visualization/Tableau.jpg" class="d-block w-100" alt="course completion certificate tableau visualisation">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/analytics_and_visualization/GDS.jpg" class="d-block w-100" alt="course completion certificate google data studio">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/analytics_and_visualization/GA.png" class="d-block w-100" alt="certificate google analytics">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div> <!-- END: carousel -->
+                </section> <!-- END: section 1 analytics and viz -->
               
-                <!-- START: section 2 MARKETING -->
+                <!-- START: section 2 programming -->
                 <section id="_programming_section" class="_programming_section">
                   <h1 class="display-5 fst-italic fw-normal text-left text-uppercase m-4">programming skills</h1>
                   <p class="mx-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, minima exercitationem alias, culpa dolore numquam ratione iure facere illum ullam qui expedita ut magnam voluptatem, aperiam natus dolorem veritatis accusantium! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure sapiente sequi exercitationem itaque? Illum dolore aliquam et quod consequuntur.</p>
-                  <img src="images/Section_2/ex_section2_schema.jpg" alt="Sales data analysis schema" class="img-fluid">
-                  <hr class="my-5 border-primary opacity-75">
-                </section> <!-- END: section 2 -->
 
-                <!-- START: section 3 RESEARCH -->
+                  <!-- START: carousel -->
+                  <div id="_carousel_programming" class="carousel slide" data-bs-ride="false" data-bs-interval="false" style="width: 70%; border: 1px solid black;">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/courses&certifications/programming/SQL_for_data_science.jpg" class="d-block w-100" alt="course completion sql for data science">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/programming/SQL_code_challenges.jpg" class="d-block w-100" alt="course completion sql code challenges">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/programming/SQL_fundamentals.jpg" class="d-block w-100" alt="course completion sql fundamentals">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_programming" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#_carousel_programming" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div> <!-- END: carousel -->
+
+                  <hr class="my-5 border-primary opacity-75">
+                </section> <!-- END: section 2 programming -->
+
+                <!-- START: section 3 digital ads -->
                 <section id="_advertising_section" class="_advertising_section">
-                  <h1 class="display-5 fst-italic fw-normal text-left text-uppercase m-4">digital advertising</h1>
+                  <h1 class="display-5 fst-italic fw-normal text-left text-uppercase m-4">digital marketing</h1>
                   <p class="mx-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, minima exercitationem alias, culpa dolore numquam ratione iure facere illum ullam qui expedita ut magnam voluptatem, aperiam natus dolorem veritatis accusantium! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure sapiente sequi exercitationem itaque? Illum dolore aliquam et quod consequuntur.</p>
-                  <img src="images/Section_2/ex_section2_schema.jpg" alt="Sales data analysis schema" class="img-fluid">
-                  <hr class="my-5 border-primary opacity-75">
-                </section> <!-- END: section 3 -->
+                  <!-- START: carousel -->
+                  <div id="_carousel_digital_marketing" class="carousel slide" data-bs-ride="false" data-bs-interval="false" style="width: 70%; border: 1px solid black;">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/courses&certifications/digital_advertising/GAds_display.png" class="d-block w-100" alt="certificate google ads display">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/digital_advertising/GAds_search.png" class="d-block w-100" alt="certificate google ads search">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/digital_advertising/GAds_shopping.png" class="d-block w-100" alt="certificate google ads shopping">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/digital_advertising/Microsoft Advertising Certified Professional-1.jpg" class="d-block w-100" alt="certificate microsoft ads">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/digital_advertising/GAds_video.png" class="d-block w-100" alt="certificate google ads video">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div> <!-- END: carousel -->
 
-                <!-- START: section 4 BI -->
+                </section> <!-- END: section 3 digital ads -->
+
+                <!-- START: section 4 Languages -->
                 <section id="_IELTS_section" class="_IELTS_section">
                   <h1 class="display-5 fst-italic fw-normal text-left text-uppercase m-4">IELTS certificate</h1>
                   <p class="mx-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, minima exercitationem alias, culpa dolore numquam ratione iure facere illum ullam qui expedita ut magnam voluptatem, aperiam natus dolorem veritatis accusantium! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure sapiente sequi exercitationem itaque? Illum dolore aliquam et quod consequuntur.</p>
-                  <img src="images/Section_2/ex_section2_schema.jpg" alt="Sales data analysis schema" class="img-fluid">
+                  <img src="images/courses&certifications/IELTS Сertificate-1.jpg" alt="Sales data analysis schema" class="img-fluid" style="width: 50%;">
                   <hr class="my-5 border-primary opacity-75">
-                </section> <!-- END: section 4 BI -->
+                </section> <!-- END: section 4 Languages -->
 
               </div> <!-- END: _sections_wrapper -->
             </div>

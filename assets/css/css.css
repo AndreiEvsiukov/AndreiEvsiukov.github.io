@@ -34,10 +34,10 @@ div._logo {
 }
 
 /* Top navbar */
-ul._top_nav {  
+/* ul._top_nav {  
   padding-right: 4%;
-  /* border: 1px solid #333333; */
-}
+  border: 1px solid #333333;
+} */
 
 ._top_nav a {
   color: #333333;
