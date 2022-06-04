@@ -4,12 +4,20 @@
   color: #333333;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 #_body_intro {
   background: #abbaab;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 1+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 
 
@@ -27,10 +35,25 @@ header {
 
 
 /* Logo and contacts */
-div._logo {
+span#_logo {
   position: absolute;
   padding: 12px 0px 12px 16px;
   width: 40%;
+}
+
+span#_logo a {
+  color: #ffffff;
+}
+
+img#_linkedin_logo {
+  padding: 0 5px 0px 8px ;
+  margin-bottom: 5px;
+  filter: invert(10%) sepia(12%) saturate(599%) hue-rotate(314deg) brightness(99%) contrast(75%);
+}
+
+img#_email_logo {
+  margin-bottom: 2px;
+  filter: invert(10%) sepia(12%) saturate(599%) hue-rotate(314deg) brightness(99%) contrast(75%);
 }
 
 /* Top navbar */
@@ -47,6 +70,10 @@ div._logo {
 
 
 /***** CONTENT  *****/
+
+#_col-10 {
+  padding-right: 65px;
+}
 
 #_content_container {
   background-color: white;
@@ -82,7 +109,7 @@ div._logo {
 
 /***** FOOTER *****/
 footer {
-  background-color: #ffffff;
+  margin: 15px 0 15px 0;
 }
 
 
