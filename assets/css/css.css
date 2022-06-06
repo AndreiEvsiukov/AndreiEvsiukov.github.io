@@ -25,6 +25,7 @@ header {
   background-color: white;
 }
 
+
 /* Pages */
 #_My_work_page_indication {
   text-decoration: underline;
@@ -64,16 +65,36 @@ img#_linkedin_logo {
   filter: invert(23%) sepia(94%) saturate(2052%) hue-rotate(182deg) brightness(101%) contrast(101%);
 }
 
-/* Top navbar */
-/* ul._top_nav {  
-  padding-right: 4%;
-  border: 1px solid #333333;
-} */
+/* Top navbar DESKTOP */
+#_top_navbar_wrapper_DESKTOP {
+  padding: 0 0 0 0;
+}
 
 ._top_nav a {
   color: #333333;
 }
 
+/* Top navbar MOBILE */
+#_top_navbar_wrapper_MOBILE {
+  height: 48px;
+  position: relative;
+}
+
+#_menu_button_wrapper {
+  margin-right: 15px;
+}
+
+/* #_menu_button_wrapper:hover {
+  background-color: #f5f5f5;
+} */
+
+#_menu_button {
+  width: 32px;
+  filter: invert(37%) sepia(9%) saturate(23%) hue-rotate(317deg) brightness(90%) contrast(81%);
+}
+
+
+/* color: #5f5f5f; */
 
 
 

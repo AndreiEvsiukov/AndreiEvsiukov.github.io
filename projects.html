@@ -31,22 +31,31 @@
           </span>
           <!--END: Logo (left upper corner)-->
 
-          <!-- START: Top navbar -->
-          <ul class="nav justify-content-end py-1 _top_nav shadow-sm">
-            <li class="nav-item _nav_item_intro">
-              <a class="nav-link" aria-current="page" href="/Index.html">Intro</a>
-            </li>
-            <li class="nav-item _nav_item_projects">
-              <a id="_My_work_page_indication" class="nav-link" aria-current="page" href="/projects.html">My work</a>
-            </li>
-            <li class="nav-item _nav_item_courses">
-              <a class="nav-link" href="/courses&certifications.html">Courses&certifications</a>
-            </li>
-            <li class="nav-item _nav_item_about">
-              <a class="nav-link" href="/about_me.html">About me</a>
-            </li>
-          </ul>
-          <!--END: Top navbar -->
+          <!-- START: TOP navbar DESKTOP -->
+          <div id="_top_navbar_wrapper_DESKTOP" class="d-none d-md-block"> <!-- d-none d-lg-block : THIS IS FOR HIDING -->
+            <ul class="nav justify-content-end py-1 _top_nav shadow-sm"> 
+              <li class="nav-item _nav_item_intro">
+                <a class="nav-link" aria-current="page" href="/Index.html">Intro</a>
+              </li>
+              <li class="nav-item _nav_item_projects">
+                <a id="_My_work_page_indication" class="nav-link" aria-current="page" href="/projects.html">My work</a>
+              </li>
+              <li class="nav-item _nav_item_courses">
+                <a class="nav-link" href="/courses&certifications.html">Courses&certifications</a>
+              </li>
+              <li class="nav-item _nav_item_about">
+                <a class="nav-link" href="/about_me.html">About me</a>
+              </li>
+            </ul>
+          </div>
+          <!--END: Top navbar DESKTOP-->
+
+          <!-- START: TOP navbar MOBILE -->
+          <div id="_top_navbar_wrapper_MOBILE" class="shadow-sm d-md-none">
+            <div id="_menu_button_wrapper" class="position-absolute top-50 end-0 translate-middle-y shadow-sm">
+              <img id="_menu_button" src="images/svg/menu.svg" alt="menu button">
+            </div>
+          </div>
         
         </div>
 
