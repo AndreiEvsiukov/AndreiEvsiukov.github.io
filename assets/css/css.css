@@ -4,14 +4,6 @@
   color: #333333;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
-body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
 
 #_body_intro {
   background: #abbaab;  /* fallback for old browsers */
@@ -33,6 +25,27 @@ header {
   background-color: white;
 }
 
+/* Pages */
+#_My_work_page_indication {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+#_Intro_page_indication {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+#_Courses_page_indication {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+#_About_me_page_indication {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
 
 /* Logo and contacts */
 span#_logo {
@@ -46,14 +59,9 @@ span#_logo a {
 }
 
 img#_linkedin_logo {
-  padding: 0 5px 0px 8px ;
+  padding: 0 0px 0px 4px ;
   margin-bottom: 5px;
-  filter: invert(10%) sepia(12%) saturate(599%) hue-rotate(314deg) brightness(99%) contrast(75%);
-}
-
-img#_email_logo {
-  margin-bottom: 2px;
-  filter: invert(10%) sepia(12%) saturate(599%) hue-rotate(314deg) brightness(99%) contrast(75%);
+  filter: invert(23%) sepia(94%) saturate(2052%) hue-rotate(182deg) brightness(101%) contrast(101%);
 }
 
 /* Top navbar */
@@ -98,9 +106,6 @@ img#_email_logo {
   z-index: 1;
 }
 
-#_back_to_top {
-  margin-top: 25em;
-}
 
 /* content */
 #_sections_wrapper {
@@ -117,6 +122,7 @@ footer {
 
 /***** RESPONSIV STUFF  *****/
 
+/*** STANDART THINGS ***/
 /* Small devices */
 @media (max-width: 576px) {
 }
@@ -127,4 +133,68 @@ footer {
 
 /* Large */
 @media (min-width: 960px) {
+}
+
+
+
+/*** FOR LEFT NAVBAR ***/
+
+@media (min-height: 700px) {
+  #_left_navbar_inside_nav {
+    height: 86vh;
+    position: relative;
+  }
+  
+  #_back_to_top {
+    position: absolute;
+    bottom: 1px;
+  }
+}
+
+@media (min-height: 650px) and (max-height: 699px) {
+  #_left_navbar_inside_nav {
+    height: 85vh;
+    position: relative;
+  }
+  
+  #_back_to_top {
+    position: absolute;
+    bottom: 1px;
+  } 
+}
+
+@media (min-height: 600px) and (max-height: 649px) {
+  #_left_navbar_inside_nav {
+    height: 84vh;
+    position: relative;
+  }
+  
+  #_back_to_top {
+    position: absolute;
+    bottom: 1px;
+  } 
+}
+
+@media (min-height: 550px) and (max-height: 599px) {
+  #_left_navbar_inside_nav {
+    height: 82vh;
+    position: relative;
+  }
+  
+  #_back_to_top {
+    position: absolute;
+    bottom: 1px;
+  } 
+}
+
+@media (min-height: 500px) and (max-height: 549px) {
+  #_left_navbar_inside_nav {
+    height: 81vh;
+    position: relative;
+  }
+  
+  #_back_to_top {
+    position: absolute;
+    bottom: 1px;
+  } 
 }
