@@ -27,22 +27,22 @@ header {
 
 
 /* Pages */
-#_My_work_page_indication {
+#_My_work_page_indication_desktop {
   text-decoration: underline;
   text-underline-offset: 0.1em;
 }
 
-#_Intro_page_indication {
+#_Intro_page_indication_desktop {
   text-decoration: underline;
   text-underline-offset: 0.1em;
 }
 
-#_Courses_page_indication {
+#_Courses_page_indication_desktop {
   text-decoration: underline;
   text-underline-offset: 0.1em;
 }
 
-#_About_me_page_indication {
+#_About_me_page_indication_desktop {
   text-decoration: underline;
   text-underline-offset: 0.1em;
 }
@@ -84,14 +84,36 @@ img#_linkedin_logo {
   margin-right: 15px;
 }
 
-/* #_menu_button_wrapper:hover {
-  background-color: #f5f5f5;
-} */
-
-#_menu_button {
-  width: 32px;
+#_menu_button_svg {
+  width: 30px;
   filter: invert(37%) sepia(9%) saturate(23%) hue-rotate(317deg) brightness(90%) contrast(81%);
 }
+
+#_offcanvas_content_list {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+#_offcanvas_content_list li {
+  margin-bottom: 0.7em;
+}
+
+#_offcanvas_content_list a:hover {
+  color: #4776cc;
+}
+
+#_Intro_page_indication_inactive_mobile, #_Courses_page_indication_inactive_mobile, #_About_page_indication_inactive_mobile, #_My_work_page_indication_inactive_mobile {
+  color: #333333;
+  text-decoration: none;
+}
+
+#_Intro_page_indication_mobile, #_Courses_page_indication_mobile, #_About_page_indication_mobile, #_My_work_page_indication_mobile {
+  color: #333333;
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+
 
 
 /* color: #5f5f5f; */
