@@ -96,16 +96,15 @@
     <!-- START: everything below header -->
     <div id="_content_container" class="container-fluid">
       <!-- START: row - everything below header -->
-      <div class="row">
+      <div id="_row_main" class="row">
 
         <!-- START: Left navbar and col 2 -->
-        <div class="col-2">
+        <div id="_col-2" class="col-2">
 
           <!-- START: Left navbar desktop -->
           <div class="_left_navbar_wrapper_desktop d-none d-lg-block">
             <nav id="_left_navbar_desktop" class="navbar flex-column align-items-stretch p-3">
 
-              <!-- <a class="navbar-brand" href="#">Intro</a> -->
               <div class="_left_navbar_heading fst-italic">Navigation:</div>
 
               <nav id="_left_navbar_inside_nav" class="nav nav-pills flex-column">
@@ -114,7 +113,7 @@
                 <a class="nav-link" href="#_research_project">Research <br class="d-none d-lg-block d-xl-none">project</a>
                 <a class="nav-link" href="#_BI_analtics">BI analytics</a>
                 <a class="nav-link" href="#_Web_development">Web <br class="d-none d-lg-block d-xl-none">development</a>
-                <a id="_back_to_top" class="nav-link" href="#">Back to top</a>
+                <a id="_back_to_top" class="nav-link" href="#">Back to top<img id="_back_to_top_svg_desktop" src="images/svg/up.svg" alt="back to top"></a>
               </nav>
               
             </nav>
@@ -122,29 +121,19 @@
           <!-- END: Left navbar desktop -->
 
           <!-- START: Left navbar mobile -->
-          <div class="_left_navbar_wrapper_mobile position-sticky d-block d-lg-none">
-            <nav id="_left_navbar_mobile" class="navbar flex-column align-items-stretch p-3">
-
-              <a class="navbar-brand" href="#">Intro</a>
-              
-              <nav class="nav nav-pills flex-column">
-                <a class="nav-link" href="#_sales_analytics">
-                  <button type="button" class="btn btn-light">1</button>
-                </a>
-                <a class="nav-link" href="#_web_analytics">
-                  <button type="button" class="btn btn-light">2</button>
-                </a>
-                <a class="nav-link" href="#_research_project">
-                  <button type="button" class="btn btn-light">3</button>
-                </a>
-                <a class="nav-link" href="#_BI_analtics">
-                  <button type="button" class="btn btn-light">4</button>
-                </a>
-                <a class="nav-link" href="#_Web_development">
-                  <button type="button" class="btn btn-light">5</button>
-                </a>
+          <div id="_left_navbar_wrapper_mobile" class="position-sticky d-block d-lg-none">
+            <div id="_left_navbar_second_wrapper_mobile">
+              <nav id="_left_navbar_nav" class="nav nav-pills flex-column">
+                <a class="nav-link" href="#_sales_analytics">1</a>
+                <a class="nav-link" href="#_web_analytics">2</a>
+                <a class="nav-link" href="#_research_project">3</a>
+                <a class="nav-link" href="#_BI_analtics">4</a>
+                <a class="nav-link" href="#_Web_development">5</a>
               </nav>
-            </nav>
+              <a id="_back_to_top_mobile" href="#">
+                <img id="_back_to_top_svg_mobile" src="images/svg/up.svg" alt="back to top">
+              </a>
+          </div>
           </div>
           <!-- END: Left navbar mobile -->
 
@@ -153,7 +142,7 @@
 
 
         <!-- START: all content and col 10 -->
-        <div id="_col-10" class="col-10 ps-0">
+        <div id="_col-10" class="col-10">
 
           <!-- START: sections -->
           <main> 

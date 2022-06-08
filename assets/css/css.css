@@ -122,10 +122,6 @@ img#_linkedin_logo {
 
 /***** CONTENT  *****/
 
-#_col-10 {
-  padding-right: 65px;
-}
-
 #_content_container {
   background-color: white;
 }
@@ -139,7 +135,7 @@ img#_linkedin_logo {
   padding: 5px 0 5px 0;
 }
 
-._left_navbar_wrapper_desktop, ._left_navbar_wrapper_mobile {
+._left_navbar_wrapper_desktop {
   top: 48px;
   height: 100vh;
   background: #e9f1e9;  /* fallback for old browsers */
@@ -149,6 +145,12 @@ img#_linkedin_logo {
   z-index: 1;
 }
 
+#_back_to_top_svg_desktop {
+  margin: 0 0 0px 5px;
+  filter: invert(41%) sepia(80%) saturate(4073%) hue-rotate(207deg) brightness(101%) contrast(96%);
+}
+
+
 
 /* content */
 #_sections_wrapper {
@@ -157,7 +159,7 @@ img#_linkedin_logo {
 
 /***** FOOTER *****/
 footer {
-  margin: 15px 0 15px 0;
+  margin: 15px 0 17px 0;
 }
 
 
@@ -167,15 +169,112 @@ footer {
 
 /*** STANDART THINGS ***/
 /* Small devices */
-@media (max-width: 576px) {
+@media (max-width: 576px ) {
+  #_col-2 {
+    width: 50px;
+  }
+
+  #_row_main {
+    width: 110%;
+  }
+
+  #_col-10 {
+    padding: 0 0 0 0;
+  }
+
+  #_left_navbar_wrapper_mobile {
+    top: 48px;
+    height: 100vh;
+    background: #e9f1e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #e9f1e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #e9f1e9); /* W3C, IE 1+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+  }
+
+  #_left_navbar_second_wrapper_mobile {
+    position: relative;
+  }
+
+  #_left_navbar_nav {
+    position: fixed;
+    top: 33%;    
+  }
+
+  #_left_navbar_nav a {
+    height: 25px;
+    margin: 0 7px 25px 7px;
+    padding: 1px 7px 1px 7px;
+  }
+
+  #_back_to_top_mobile {
+    position: fixed;
+    top: 94%;
+    margin: 0 10px 0 9px;
+  }
+
+  #_back_to_top_svg_mobile {
+    width: 18px;
+    filter: invert(41%) sepia(80%) saturate(4073%) hue-rotate(207deg) brightness(101%) contrast(96%);
+  }
 }
 
-/* Middle-size devices */
-@media (min-width: 768px) and (max-width: 1200px) {
+
+/* Medium devices */
+@media (min-width: 577px) and (max-width: 991px) {
+  #_col-2 {
+    width: 65px;
+  }
+
+  #_col-10 {
+    padding: 0 0 0 0;
+  }
+
+  #_row_main {
+    width: 110%;
+  }
+
+  #_left_navbar_wrapper_mobile {
+    top: 48px;
+    height: 100vh;
+    background: #e9f1e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #e9f1e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #e9f1e9); /* W3C, IE 1+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+  }
+
+  #_left_navbar_second_wrapper_mobile {
+    position: relative;
+  }
+
+  #_left_navbar_nav {
+    position: fixed;
+    top: 33%;    
+  }
+
+  #_left_navbar_nav a {
+    height: 27px;
+    margin: 0 12px 25px 12px;
+    padding: 2px 9px 2px 9px;
+  }
+
+  #_back_to_top_mobile {
+    position: fixed;
+    top: 94%;
+    margin: 0 16px 0 15px;
+  }
+
+  #_back_to_top_svg_mobile {
+    width: 20px;
+    filter: invert(41%) sepia(80%) saturate(4073%) hue-rotate(207deg) brightness(101%) contrast(96%);
+  }
+
 }
 
 /* Large */
-@media (min-width: 960px) {
+@media (min-width: 992px) {
+  #_col-10 {
+    padding-right: 65px;
+  }
 }
 
 

@@ -95,24 +95,23 @@
     <!-- START: everything below header -->
     <div id="_content_container" class="container-fluid">
       <!-- START: row - everything below header -->
-      <div class="row">
+      <div id="_row_main" class="row">
 
         <!-- START: Left navbar and col 2 -->
-        <div class="col-2">
+        <div id="_col-2" class="col-2">
 
           <!-- START: Left navbar desktop -->
           <div class="_left_navbar_wrapper_desktop d-none d-lg-block">
             <nav id="_left_navbar_desktop" class="navbar flex-column align-items-stretch p-3">
 
-              <!-- <a class="navbar-brand" href="#">Intro</a> -->
-              <div class="_left_navbar_heading fst-italic">Navigation</div>
+              <div class="_left_navbar_heading fst-italic">Navigation:</div>
 
               <nav id="_left_navbar_inside_nav" class="nav nav-pills flex-column">
                 <a class="nav-link" href="#_analytics_viz_section">Analytics and <br>visualization</a>
                 <a class="nav-link" href="#_programming_section">Programming</a>
-                <a class="nav-link" href="#_advertising_section">Digital marketing</a>
+                <a class="nav-link" href="#_advertising_section">Digital <br class="d-none d-lg-block d-xl-none">marketing</a>
                 <a class="nav-link" href="#_IELTS_section">Languages</a>
-                <a id="_back_to_top" class="nav-link" href="#">Back to top</a>
+                <a id="_back_to_top" class="nav-link" href="#">Back to top<img id="_back_to_top_svg_desktop" src="images/svg/up.svg" alt="back to top"></a>
               </nav>
               
             </nav>
@@ -120,26 +119,18 @@
           <!-- END: Left navbar desktop -->
 
           <!-- START: Left navbar mobile -->
-          <div class="_left_navbar_wrapper_mobile position-sticky d-block d-lg-none">
-            <nav id="_left_navbar_mobile" class="navbar flex-column align-items-stretch p-3">
-
-              <a class="navbar-brand" href="#">Intro</a>
-              
-              <nav class="nav nav-pills flex-column">
-                <a class="nav-link" href="#_analytics_viz_section">
-                  <button type="button" class="btn btn-light">1</button>
-                </a>
-                <a class="nav-link" href="#_programming_section">
-                  <button type="button" class="btn btn-light">2</button>
-                </a>
-                <a class="nav-link" href="#_advertising_section">
-                  <button type="button" class="btn btn-light">3</button>
-                </a>
-                <a class="nav-link" href="#_IELTS_section">
-                  <button type="button" class="btn btn-light">4</button>
-                </a>
+          <div id="_left_navbar_wrapper_mobile" class="position-sticky d-block d-lg-none">
+            <div id="_left_navbar_second_wrapper_mobile">
+              <nav id="_left_navbar_nav" class="nav nav-pills flex-column">
+                <a class="nav-link" href="#_analytics_viz_section">1</a>
+                <a class="nav-link" href="#_programming_section">2</a>
+                <a class="nav-link" href="#_advertising_section">3</a>
+                <a class="nav-link" href="#_IELTS_section">4</a>
               </nav>
-            </nav>
+              <a id="_back_to_top_mobile" href="#">
+                <img id="_back_to_top_svg_mobile" src="images/svg/up.svg" alt="back to top">
+              </a>
+          </div>
           </div>
           <!-- END: Left navbar mobile -->
 
@@ -160,7 +151,7 @@
                 <!-- START: section 1 analytics and viz -->
                 <section id="_analytics_viz_section" class="_analytics_viz_section">
                   <h1 class="display-5 fst-italic fw-normal text-left text-uppercase m-4">analytics / visualisation</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nesciunt obcaecati minus accusantium eaque inventore error culpa, tempore dolores? Aspernatur dignissimos facere ex dolore, explicabo earum non sequi exercitationem quam?</p>
+                  <p class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nesciunt obcaecati minus accusantium eaque inventore error culpa, tempore dolores? Aspernatur dignissimos facere ex dolore, explicabo earum non sequi exercitationem quam?</p>
                   
                   <!-- START: carousel -->
                   <div id="_carousel_analytics_certificates" class="carousel slide" data-bs-ride="false" data-bs-interval="false" style="width: 70%; border: 1px solid black;">
