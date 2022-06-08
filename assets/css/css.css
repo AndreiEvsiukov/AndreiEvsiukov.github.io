@@ -216,7 +216,7 @@ footer {
 
 
 /* Medium devices */
-@media (min-width: 577px) and (max-width: 991px) {
+@media (min-width: 577px) and (max-width: 992px) {
   #_col-2 {
     width: 65px;
   }
@@ -261,6 +261,7 @@ footer {
   }
 
 }
+
 
 /* Large */
 @media (min-width: 992px) {
