@@ -5,6 +5,7 @@
 }
 
 
+
 #_body_intro {
   background: #abbaab;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
@@ -52,7 +53,7 @@ header {
 span#_logo {
   position: absolute;
   padding: 12px 0px 12px 16px;
-  width: 40%;
+  width: 15%;
 }
 
 span#_logo a {
@@ -156,6 +157,42 @@ img#_linkedin_logo {
 #_sections_wrapper {
   font-size: 15px;
 }
+
+section h1 {
+  margin: 24px 16px 30px 16px;
+  padding: 0 0 5px;
+}
+
+#_h {
+  margin: 16px 0 16px 16px;
+  font-weight: 500;
+}
+
+#_p_into {
+  margin: 16px 0 35px 16px;
+  width: 95%;
+}
+
+section ul {
+  margin-top: 10px;
+}
+
+section h2 {
+  margin: 50px 0 16px 16px ;
+}
+
+/* section 1 - operational */
+#_img_diagram {
+  margin: 10px 0 35px 16px;
+  padding: 25px 15px 25px 15px;
+  width: 1150px;
+}
+
+#_img_tableau {
+  width: 75%;
+  margin: 0 0 50px 16px;
+}
+
 
 /***** FOOTER *****/
 footer {
@@ -275,7 +312,7 @@ footer {
 /*** FOR LEFT NAVBAR ***/
 
 @media (min-height: 700px) {
-  #_left_navbar_inside_nav {
+  #_left_navbar_inside_nav_projects, #_left_navbar_inside_nav_courses {
     height: 86vh;
     position: relative;
   }
@@ -287,7 +324,7 @@ footer {
 }
 
 @media (min-height: 650px) and (max-height: 699px) {
-  #_left_navbar_inside_nav {
+  #_left_navbar_inside_nav_projects, #_left_navbar_inside_nav_courses {
     height: 85vh;
     position: relative;
   }
@@ -299,7 +336,7 @@ footer {
 }
 
 @media (min-height: 600px) and (max-height: 649px) {
-  #_left_navbar_inside_nav {
+  #_left_navbar_inside_nav_projects, #_left_navbar_inside_nav_courses {
     height: 84vh;
     position: relative;
   }
@@ -311,7 +348,7 @@ footer {
 }
 
 @media (min-height: 550px) and (max-height: 599px) {
-  #_left_navbar_inside_nav {
+  #_left_navbar_inside_nav_projects, #_left_navbar_inside_nav_courses {
     height: 82vh;
     position: relative;
   }
@@ -323,7 +360,7 @@ footer {
 }
 
 @media (min-height: 500px) and (max-height: 549px) {
-  #_left_navbar_inside_nav {
+  #_left_navbar_inside_nav_projects, #_left_navbar_inside_nav_courses {
     height: 81vh;
     position: relative;
   }
