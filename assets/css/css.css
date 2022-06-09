@@ -53,7 +53,8 @@ header {
 span#_logo {
   position: absolute;
   padding: 12px 0px 12px 16px;
-  width: 15%;
+  width: 45%;
+  z-index: 3;
 }
 
 span#_logo a {
@@ -79,6 +80,7 @@ img#_linkedin_logo {
 #_top_navbar_wrapper_MOBILE {
   height: 48px;
   position: relative;
+  z-index: 2;
 }
 
 #_menu_button_wrapper {
@@ -132,6 +134,10 @@ img#_linkedin_logo {
   padding-left: 0px !important;
 }
 
+#_left_navbar_desktop {
+  padding: 25px 16px 16px 16px;
+}
+
 ._left_navbar_heading {
   padding: 5px 0 5px 0;
 }
@@ -158,14 +164,23 @@ img#_linkedin_logo {
   font-size: 15px;
 }
 
-section h1 {
+#_title_wrapper {
+  position: relative;
+}
+
+
+section #_h1_first {
   margin: 24px 16px 30px 16px;
-  padding: 0 0 5px;
+  padding: 0 0 3px;
 }
 
 #_h {
   margin: 16px 0 16px 16px;
   font-weight: 500;
+}
+
+section h1 {
+  margin: 1.5em 16px 30px 16px;
 }
 
 #_p_into {
@@ -197,9 +212,18 @@ section h2 {
 /***** FOOTER *****/
 footer {
   margin: 15px 0 17px 0;
+  position: relative;
 }
 
+#_email_footer, #_linkedin_footer {
+  text-decoration: none;
+  padding: 0 10px 0 0px;
+}
 
+#_footer_link_wrapper {
+  position: absolute;
+  right: 0;
+}
 
 
 /***** RESPONSIV STUFF  *****/
@@ -319,7 +343,7 @@ footer {
   
   #_back_to_top {
     position: absolute;
-    bottom: 1px;
+    bottom: 13px;
   }
 }
 
@@ -331,7 +355,7 @@ footer {
   
   #_back_to_top {
     position: absolute;
-    bottom: 1px;
+    bottom: 13px;
   } 
 }
 
@@ -343,7 +367,7 @@ footer {
   
   #_back_to_top {
     position: absolute;
-    bottom: 1px;
+    bottom: 13px;
   } 
 }
 
@@ -355,7 +379,7 @@ footer {
   
   #_back_to_top {
     position: absolute;
-    bottom: 1px;
+    bottom: 13px;
   } 
 }
 
@@ -367,6 +391,6 @@ footer {
   
   #_back_to_top {
     position: absolute;
-    bottom: 1px;
+    bottom: 13px;
   } 
 }
