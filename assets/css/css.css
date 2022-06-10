@@ -168,19 +168,29 @@ img#_linkedin_logo {
   position: relative;
 }
 
+section p {
+  margin-left: 16px;
+  margin-bottom: 35px;
+}
 
 section #_h1_first {
   margin: 24px 16px 30px 16px;
   padding: 0 0 3px;
 }
 
-#_h {
+#_p_as_h1 {
   margin: 16px 0 16px 16px;
   font-weight: 500;
 }
 
+#_p_as_h2 {
+  font-weight: 300;
+  font-size: 13px;
+  color: #4e4e4e;
+}
+
 section h1 {
-  margin: 1.5em 16px 30px 16px;
+  margin: 2em 16px 30px 16px;
 }
 
 #_p_into {
@@ -190,10 +200,7 @@ section h1 {
 
 section ul {
   margin-top: 10px;
-}
-
-section h2 {
-  margin: 50px 0 16px 16px ;
+  margin-bottom: 35px;
 }
 
 /* section 1 - operational */
@@ -203,9 +210,41 @@ section h2 {
   width: 1150px;
 }
 
+#_tableau_examples_wrapper {
+  width: fit-content;
+}
+
 #_img_tableau {
-  width: 75%;
-  margin: 0 0 50px 16px;
+  margin: 10px auto 10px auto;
+  display: block;
+  width: 70%;
+}
+
+#_tableau_button_wrapper {
+  margin-left: 16px;
+}
+
+#_button_tableau {
+  display: block;
+  margin: 30px auto 0px auto;
+  width: 250px;
+  border: solid #e1e1e1 2px;
+  padding-left: 43px;
+  padding-right: 43px;
+  color: #333333;
+  text-decoration: none;
+}
+
+#_tableau_button_wrapper :hover {
+  background-color: #f5f5f5;
+}
+
+/* section 2 */
+
+#_GDS_dashboard {
+  margin: 10px auto 10px auto;
+  display: block;
+  width: 70%;
 }
 
 
