@@ -123,7 +123,7 @@ img#_linkedin_logo {
 
 
 
-/***** CONTENT  *****/
+/***** MAIN  *****/
 
 #_content_container {
   background-color: white;
@@ -160,6 +160,8 @@ img#_linkedin_logo {
 
 
 /* content */
+/* Projects */
+
 #_sections_wrapper {
   font-size: 15px;
 }
@@ -187,6 +189,7 @@ section #_h1_first {
   font-weight: 300;
   font-size: 13px;
   color: #4e4e4e;
+  margin-left: 0;
 }
 
 section h1 {
@@ -252,14 +255,70 @@ section ul {
 }
 
 /* section 4 */
-/* #_carousel_bat {
-  height: 0.5em;
+
+#_BAT_h1 {
+  margin: 2em 16px 50px 16px;
+}
+
+#_carousel_bat {
+  float: left;
+  margin: 0px 16px 96px 0;
+}
+
+#_BAT_description {
+  margin: 70px 0 7% 16px;
+  width: 95%;
+}
+
+.active {
+  font-weight: bold;
+}
+
+a._carousel_control {
+  text-decoration: none;
+  color: #333333;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+a._carousel_control:hover {
+  color: #333333;
+}
+
+#_button_BAT_new {
+  border: solid #e1e1e1 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #333333;
+  text-decoration: none;
+}
+
+#_button_BAT_old {
+  border: solid #e1e1e1 2px;
+  padding-left: 30px;
+  padding-right: 37px;
+  color: #333333;
+  text-decoration: none;
+}
+
+/* a._carousel_control {
+  background-color: white;
+  border: none;
+  margin-right: 5px ;
 } */
 
-/* #_carousel_img {
-  width: 952px;
-} */
 
+/* section 5 */
+#_Web_development {
+  clear: left;
+}
+
+/* Courses&certifications */
+
+#_carousel_analytics_certificates, #_carousel_programming, #_carousel_digital_marketing {
+  width: 70%;
+  margin-left: 16px;
+}
 
 /***** FOOTER *****/
 footer {
