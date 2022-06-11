@@ -193,6 +193,12 @@ section h1 {
   margin: 2em 16px 30px 16px;
 }
 
+#_img_preview_project {
+  margin: 10px auto 10px auto;
+  display: block;
+  width: 70%;
+}
+
 #_p_into {
   margin: 16px 0 35px 16px;
   width: 95%;
@@ -203,7 +209,15 @@ section ul {
   margin-bottom: 35px;
 }
 
-/* section 1 - operational */
+#_button_wrapper {
+  margin-left: 16px;
+}
+
+#_button_wrapper :hover {
+  background-color: #f5f5f5;
+}
+
+/* section 1 and 2 */
 #_img_diagram {
   margin: 10px 0 35px 16px;
   padding: 25px 15px 25px 15px;
@@ -214,17 +228,7 @@ section ul {
   width: fit-content;
 }
 
-#_img_tableau {
-  margin: 10px auto 10px auto;
-  display: block;
-  width: 70%;
-}
-
-#_tableau_button_wrapper {
-  margin-left: 16px;
-}
-
-#_button_tableau {
+#_button_tableau_gds {
   display: block;
   margin: 30px auto 0px auto;
   width: 250px;
@@ -235,17 +239,26 @@ section ul {
   text-decoration: none;
 }
 
-#_tableau_button_wrapper :hover {
-  background-color: #f5f5f5;
-}
-
-/* section 2 */
-
-#_GDS_dashboard {
-  margin: 10px auto 10px auto;
+/* section 3 */
+#_button_research {
   display: block;
-  width: 70%;
+  margin: 30px auto 0px auto;
+  width: 250px;
+  border: solid #e1e1e1 2px;
+  padding-left: 65px;
+  padding-right: 65px;
+  color: #333333;
+  text-decoration: none;
 }
+
+/* section 4 */
+/* #_carousel_bat {
+  height: 0.5em;
+} */
+
+/* #_carousel_img {
+  width: 952px;
+} */
 
 
 /***** FOOTER *****/
