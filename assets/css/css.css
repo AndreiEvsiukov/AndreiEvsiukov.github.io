@@ -266,7 +266,7 @@ section ul {
 }
 
 #_BAT_description {
-  margin: 70px 0 7% 16px;
+  margin: 70px 0 16px 16px;
   width: 95%;
 }
 
@@ -301,6 +301,7 @@ a._carousel_control:hover {
   text-decoration: none;
 }
 
+
 /* a._carousel_control {
   background-color: white;
   border: none;
@@ -322,8 +323,9 @@ a._carousel_control:hover {
 
 /***** FOOTER *****/
 footer {
-  margin: 15px 0 17px 0;
+  margin: 60px 0 17px 0;
   position: relative;
+  padding-top: 10px;
 }
 
 #_email_footer, #_linkedin_footer {
