@@ -432,6 +432,13 @@ footer {
 
 }
 
+/* ONLY FOR INTRO */
+@media (max-width: 768px) {
+  div#_content_intro {
+    margin-top: 0px !important;
+  }
+}
+
 
 /* Medium devices */
 @media (min-width: 577px) and (max-width: 992px) {
