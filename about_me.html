@@ -18,7 +18,7 @@
     
     <!-- START: header -->
     <header>
-      <div class="container-fluid _header_container">
+      <div class="container-fluid">
         <div class="row">
 
           <!--START: Logo (left upper corner)-->
@@ -102,8 +102,8 @@
         <p id="_1st_p_about_me"><em>Hi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, repellat quibusdam. Labore voluptate aliquam esse vel ex accusantium sunt est reiciendis quod laudantium asperiores obcaecati nesciunt, sed quas quis quasi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam tempora nemo quidem explicabo eveniet.</em></p>
           
         <!-- START: carousel more than 990px  -->
-        <div id="_carousel_large_about_me" class="carousel carousel-dark slide shadow d-none d-lg-block" data-bs-ride="false" data-bs-interval="false">
-          <div class="carousel-inner rounded-1">
+        <div id="_carousel_large_about_me" class="carousel carousel-dark slide d-none d-lg-block" data-bs-ride="false" data-bs-interval="false">
+          <div class="carousel-inner rounded-1 shadow">
             <div class="carousel-item active">
               <img src="images/about_me/slideshow/1.png" class="d-block w-100" alt="lifestyle img 1">
             </div>
@@ -135,6 +135,20 @@
               <img src="images/about_me/slideshow/10.png" class="d-block w-100" alt="lifestyle img 3">
             </div>
           </div>
+
+          <div id="_carousel_indicators" class="carousel-indicators">
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          </div>
+
           <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -151,8 +165,8 @@
         <p id="_2nd_p_about_me"><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, repellat quibusdam. Labore voluptate aliquam esse vel ex accusantium sunt est reiciendis quod laudantium asperiores obcaecati nesciunt, sed quas quis quasi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam tempora nemo quidem explicabo eveniet laborum sequi! Exercitationem delectus.</em></p>
 
         <!-- START: carousel less than 990px -->
-        <div id="_carousel_small_about_me" class="carousel carousel-dark slide shadow d-block d-lg-none" data-bs-ride="false" data-bs-interval="false">
-          <div class="carousel-inner rounded-1">
+        <div id="_carousel_small_about_me" class="carousel carousel-dark slide d-block d-lg-none" data-bs-ride="false" data-bs-interval="false">
+          <div class="carousel-inner rounded-1 shadow">
             <div class="carousel-item active">
               <img src="images/about_me/slideshow/1.png" class="d-block w-100" alt="lifestyle img 1">
             </div>
@@ -184,6 +198,20 @@
               <img src="images/about_me/slideshow/10.png" class="d-block w-100" alt="lifestyle img 3">
             </div>
           </div>
+
+          <div id="_carousel_indicators" class="carousel-indicators">
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          </div>
+
           <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -197,7 +225,7 @@
       </div> <!-- END: container content -->
     </main>
 
-
+    <script src="assets/js/my_script.js"></script> <!-- my own JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

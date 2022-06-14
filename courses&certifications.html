@@ -18,7 +18,7 @@
 
     <!-- START: header -->
     <header>
-      <div class="container-fluid _header_container">
+      <div class="container-fluid">
         <div class="row">
 
           <!--START: Logo (left upper corner)-->
@@ -160,8 +160,10 @@
                   </p>
                   
                   <!-- START: carousel -->
-                  <div id="_carousel_analytics_certificates" class="carousel carousel-dark slide shadow" data-bs-ride="false" data-bs-interval="false">
-                    <div class="carousel-inner rounded-1">
+
+                  <div id="_carousel_analytics_certificates" class="carousel carousel-dark slide" data-bs-ride="false" data-bs-interval="false">
+
+                    <div class="carousel-inner shadow rounded-1">
                       <div class="carousel-item active">
                         <img src="images/courses&certifications/analytics_and_visualization/Tableau.jpg" class="d-block w-100" alt="course completion certificate tableau visualisation">
                       </div>
@@ -172,6 +174,13 @@
                         <img src="images/courses&certifications/analytics_and_visualization/GA.png" class="d-block w-100" alt="certificate google analytics">
                       </div>
                     </div>
+
+                    <div id="_carousel_indicators" class="carousel-indicators">
+                      <button type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
                     <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
@@ -204,8 +213,8 @@
                     However, it is completely due to the course I was able to create this portfolio.</em></p>
 
                   <!-- START: carousel -->
-                  <div id="_carousel_programming" class="carousel carousel-dark slide shadow rounded" data-bs-ride="false" data-bs-interval="false">
-                    <div class="carousel-inner rounded-1">
+                  <div id="_carousel_programming" class="carousel carousel-dark slide rounded" data-bs-ride="false" data-bs-interval="false">
+                    <div class="carousel-inner shadow rounded-1">
                       <div class="carousel-item active">
                         <img src="images/courses&certifications/programming/Learning_Python.png" class="d-block w-100" alt="course completion sql for data science">
                       </div>
@@ -219,6 +228,14 @@
                         <img src="images/courses&certifications/programming/SQL_fundamentals.jpg" class="d-block w-100" alt="course completion sql fundamentals">
                       </div>
                     </div>
+
+                    <div id="_carousel_indicators" class="carousel-indicators">
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+
                     <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_programming" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
@@ -238,8 +255,8 @@
                     Moreover, the last two years I was combining analytics responsibilities with work in digital marketing. <br>
                     I can confidently say that I have a deep understanding of business processes and practices in this field.</p>
                   <!-- START: carousel -->
-                  <div id="_carousel_digital_marketing" class="carousel carousel-dark slide shadow rounded" data-bs-ride="false" data-bs-interval="false">
-                    <div class="carousel-inner rounded-1">
+                  <div id="_carousel_digital_marketing" class="carousel carousel-dark slide rounded" data-bs-ride="false" data-bs-interval="false">
+                    <div class="carousel-inner rounded-1 shadow">
                       <div class="carousel-item active">
                         <img src="images/courses&certifications/digital_advertising/GAds_display.png" class="d-block w-100" alt="certificate google ads display">
                       </div>
@@ -256,6 +273,15 @@
                         <img src="images/courses&certifications/digital_advertising/GAds_video.png" class="d-block w-100" alt="certificate google ads video">
                       </div>
                     </div>
+
+                    <div id="_carousel_indicators" class="carousel-indicators">
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+
                     <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
@@ -278,18 +304,24 @@
                     <li>French: A2.</li>
                   </ul>
 
+
+
+                  <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDREI -->
+
+
+
                   <img id="_img_ielts" src="images/courses&certifications/IELTS Сertificate-1.jpg" alt="IELTS certificate" class="img-fluid shadow ms-3">
                   <!-- The Modal -->
-                  <div id="myModal2" class="modal2">
+                  <div id="myModal" class="modal">
 
                     <!-- The Close Button -->
-                    <span class="close2">&times;</span>
+                    <span class="close">&times;</span>
 
                     <!-- Modal Content (The Image) -->
-                    <img class="modal-content2" id="img02">
+                    <img class="modal-content" id="img2">
 
                     <!-- Modal Caption (Image Text) -->
-                    <div id="caption2"></div>
+                    <div id="caption"></div>
                   </div>
 
                 </section> <!-- END: section 4 Languages -->
@@ -316,6 +348,7 @@
       </div> <!-- END: row - everything below header -->
     </div> <!-- END: container - everything below header -->
 
+    <script src="assets/js/my_script.js"></script> <!-- my own JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

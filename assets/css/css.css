@@ -4,6 +4,10 @@
   color: #333333;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 
 
 #_body_intro {
@@ -20,11 +24,13 @@ header {
   position: sticky;
   top: 0;
   z-index: 2;
-}
-
-._header_container {
   background-color: white;
 }
+
+#_header_intro {
+  width: 100vw;
+}
+
 
 
 /* Pages */
@@ -73,8 +79,9 @@ img#_linkedin_logo {
 }
 
 #_top_navbar_padding {
-  padding-right: 16.8px;
+  padding-right: 17px;
 }
+
 
 ._top_nav a {
   color: #333333;
@@ -248,7 +255,7 @@ section ul {
 
 
 /* The Modal (background) */
-.modal1, .modal2 {
+.modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 4; /* Sit on top */
@@ -263,7 +270,7 @@ section ul {
 }
 
 /* Modal Content (Image) */
-.modal-content1, .modal-content2  {
+.modal-content  {
   margin: auto;
   display: block;
   max-width: 90%;
@@ -271,7 +278,7 @@ section ul {
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption1, #caption2 {
+#caption {
   margin: auto;
   display: block;
   width: 80%;
@@ -283,7 +290,7 @@ section ul {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content1, #caption1, .modal-content2, #caption2 {
+.modal-content, #caption {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
@@ -294,7 +301,7 @@ section ul {
 }
 
 /* The Close Button */
-.close1, .close2 {
+.close {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -304,7 +311,7 @@ section ul {
   transition: 0.3s;
 }
 
-.close1:hover, .close1:focus, .close2:hover, .close2:focus {
+.close:hover, .close:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -394,8 +401,14 @@ a._carousel_control:hover {
 /* Courses&certifications */
 
 #_carousel_analytics_certificates, #_carousel_programming, #_carousel_digital_marketing {
-  width: 75%;
+  width: 70%;
   margin-left: 16px;
+}
+
+#_carousel_indicators {
+  position: static;
+  margin-bottom: 0;
+  margin-top: 16px;
 }
 
 #_img_ielts {

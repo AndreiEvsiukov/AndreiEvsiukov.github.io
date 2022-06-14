@@ -26,24 +26,24 @@ document.addEventListener("click", function(evt){
 // modal 1
 
 // Get the modal
-var modal_scheme = document.getElementById("myModal1");
+var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img_scheme = document.getElementById("_img_diagram");
-var modalImg_scheme = document.getElementById("img01");
-var captionText_scheme = document.getElementById("caption1");
-img_scheme.onclick = function(){
-  modal_scheme.style.display = "block";
-  modalImg_scheme.src = this.src;
-  captionText_scheme.innerHTML = this.alt;
+var img = document.getElementById("_img_diagram");
+var modalImg = document.getElementById("img1");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
 }
 
 // Get the <span> element that closes the modal
-var span_scheme = document.getElementsByClassName("close1")[0];
+var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span_scheme.onclick = function() { 
-  modal_scheme.style.display = "none";
+span.onclick = function() { 
+  modal.style.display = "none";
 }
 
 
@@ -51,12 +51,12 @@ span_scheme.onclick = function() {
 // modal 2
 
 // Get the modal
-var modal_ielts = document.getElementById("myModal2");
+var modal_ielts = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img_ielts = document.getElementById("_img_ielts");
-var modalImg_ielts = document.getElementById("img02");
-var captionText_ielts = document.getElementById("caption2");
+var modalImg_ielts = document.getElementById("img2");
+var captionText_ielts = document.getElementById("caption");
 img_ielts.onclick = function(){
   modal_ielts.style.display = "block";
   modalImg_ielts.src = this.src;
@@ -64,7 +64,7 @@ img_ielts.onclick = function(){
 }
 
 // Get the <span> element that closes the modal
-var span_ielts = document.getElementsByClassName("close2")[0];
+var span_ielts = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
 span_ielts.onclick = function() { 
