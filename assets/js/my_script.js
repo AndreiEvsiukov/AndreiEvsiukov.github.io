@@ -15,6 +15,31 @@ document.addEventListener("click", function(evt){
     // Make the clicked button have the active class
     evt.target.classList.add("active");
   }
+
+  if (evt.target.classList.contains("carousel-control-next-icon") ||
+  evt.target.classList.contains("carousel-control-next")) {
+  let index;
+  buttons.forEach((button, i, arr) => {
+    if (button.classList.contains("active")) {
+      button.classList.remove("active");
+      index = i + 1 == arr.length ? 0 : i + 1;
+    }
+  });
+  buttons[index].classList.add("active");
+}
+
+if (evt.target.classList.contains("carousel-control-prev-icon") ||
+  evt.target.classList.contains("carousel-control-prev")) {
+  let index;
+  buttons.forEach((button, i, arr) => {
+    if (button.classList.contains("active")) {
+      button.classList.remove("active");
+      index = i - 1 == -1 ? arr.length - 1 : i - 1;
+    }
+  });
+  buttons[index].classList.add("active");
+}
+
 });
 
 
